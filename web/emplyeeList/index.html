@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee List</title>
+    <link rel="stylesheet" href="./index.css"></style>
+</head>
+<body>
+    <h1 class="emplyeeHeader"> Employee Details</h1>
+    <div> Total Employees: 
+        <span id="totalEmployee"></span>
+    </div>
+    <div>
+        <div>Employee Names:
+            <span id="employeeNames" class="employeeNames"></span>
+        </div>
+    </div>
+
+    <div>
+        <div>Employee Details:
+            <div id="employeeDetails"></div>
+            <input id="name" />
+            <button id="filterByName" onclick="filterByName()">
+                Filter By Given Name 
+            </button>
+            <button id="accendingByAge" onclick="sortByAge('asc')">
+                Accending By Age
+            </button>
+
+            <button id="decendingByAge" onclick="sortByAge('dsc')">
+                Decending By Age
+            </button>
+        </div>
+    </div>
+    <script src="./index.js">
+
+    </script>
+</body>
+</html>
