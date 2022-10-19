@@ -25,7 +25,7 @@ const printData = () => {
     //console.log(funcBlockConstName); // you cannot use let its its been declared in if block
 
     if (true) {
-        var funcBlockVarName = 'Hello Glashan, am from function Block scope var';
+        var funcBlockVarName = 'Hello Glashan, am from function Block scope var';   
         let funcBlockLetName = 'Hello Glashan, am from function Block scope let';
         const funcBlockConstName = 'Hello Glashan, am from function Block scope const';
         console.log(funcBlockVarName);
